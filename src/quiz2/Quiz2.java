@@ -15,6 +15,8 @@ public class Quiz2 {
             System.out.print(word.charAt(word.length() - 1));
             word = word.substring(0, word.length() - 1);
             reverseString(word);
+        }else{
+            System.out.println();
         }
     }
     public static void main(String[] args) {
